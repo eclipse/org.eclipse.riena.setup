@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?pde version="3.8"?>
 
-<target name="Riena_on_4x" sequenceNumber="38">
+<target name="Riena_on_4x" sequenceNumber="41">
 <locations>
 <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
 <unit id="org.eclipse.rcp.feature.group" version="4.3.0.v20130530-1603"/>
 <unit id="org.eclipse.rcp.source.feature.group" version="4.3.0.v20130530-1603"/>
 <unit id="org.eclipse.rcp.sdk.id" version="4.3.0.I20130530-1430"/>
 <unit id="org.eclipse.equinox.sdk.feature.group" version="3.9.0.v20130529-1710"/>
-<repository location="http://download.eclipse.org/releases/kepler"/>
-</location>
-<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
 <unit id="org.eclipse.riena.build.feature.core.sdk.e4.feature.group" version="5.0.0.v20130605_5_0_0_0"/>
 <unit id="org.eclipse.riena.build.feature.samples.sdk.feature.group" version="5.0.0.v20130605_5_0_0_0"/>
 <unit id="org.eclipse.riena.build.feature.sdk.e4.feature.group" version="5.0.0.v20130605_5_0_0_0"/>
-<repository location="file:/Z:/Produkt-Releases/Riena/Riena-5.0.0-RC3/finalrepo-e4-rap/"/>
+<repository location="http://download.eclipse.org/releases/kepler"/>
 </location>
 </locations>
 </target>

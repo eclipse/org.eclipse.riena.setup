@@ -1,18 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?pde version="3.8"?>
 
-<target name="Riena_on_RAP" sequenceNumber="40">
+<target name="Riena_on_RAP" sequenceNumber="42">
 <locations>
 <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="slicer" includeSource="true" type="InstallableUnit">
 <unit id="org.eclipse.rap.equinox.target.feature.feature.group" version="2.1.0.20130603-0726"/>
 <unit id="org.eclipse.rap.feature.feature.group" version="2.1.0.20130528-1219"/>
-<repository location="http://download.eclipse.org/releases/kepler"/>
-</location>
-<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="slicer" includeSource="true" type="InstallableUnit">
 <unit id="org.eclipse.riena.build.feature.core.sdk.e4.feature.group" version="5.0.0.v20130605_5_0_0_0"/>
 <unit id="org.eclipse.riena.build.feature.samples.sdk.feature.group" version="5.0.0.v20130605_5_0_0_0"/>
 <unit id="org.eclipse.riena.build.feature.rap.sdk.feature.group" version="5.0.0.v20130605_5_0_0_0"/>
-<repository location="file:/Z:/Produkt-Releases/Riena/Riena-5.0.0-RC3/finalrepo-e4-rap/"/>
+<repository location="http://download.eclipse.org/releases/kepler"/>
 </location>
 </locations>
 </target>
