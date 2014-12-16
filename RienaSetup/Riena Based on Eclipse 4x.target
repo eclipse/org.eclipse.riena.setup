@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?pde version="3.8"?><target name="Riena Based on Eclipse 4x" sequenceNumber="49">
+<?pde version="3.8"?>
+
+<target name="Riena Based on Eclipse 4x" sequenceNumber="44">
 <locations>
 <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+<unit id="org.eclipse.riena.build.feature.core.sdk.e4.feature.group" version="6.0.0.v20140610_6_0_0_0"/>
 <unit id="org.eclipse.rcp.sdk.id" version="4.4.1.M20140925-0400"/>
+<unit id="org.eclipse.riena.build.feature.sdk.e4.feature.group" version="6.0.0.v20140610_6_0_0_0"/>
 <unit id="org.eclipse.equinox.sdk.feature.group" version="3.10.0.v20140909-1633"/>
+<unit id="org.eclipse.riena.build.feature.samples.sdk.feature.group" version="6.0.0.v20140610_6_0_0_0"/>
 <unit id="org.eclipse.rcp.source.feature.group" version="4.4.0.v20140925-0400"/>
 <unit id="org.eclipse.rcp.feature.group" version="4.4.0.v20140925-0400"/>
 <repository location="http://download.eclipse.org/releases/luna"/>
-</location>
-<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
-<unit id="org.eclipse.riena.build.feature.sdk.e4.feature.group" version="6.1.0.HEAD_201412161107"/>
-<unit id="org.eclipse.riena.build.feature.samples.sdk.feature.group" version="6.1.0.HEAD_201412161107"/>
-<unit id="org.eclipse.riena.build.feature.core.sdk.e4.feature.group" version="6.1.0.HEAD_201412161107"/>
-<repository location="file:/C:/setups/riena-201412161107/"/>
 </location>
 </locations>
 </target>
