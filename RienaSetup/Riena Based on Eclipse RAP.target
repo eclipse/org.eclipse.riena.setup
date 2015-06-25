@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?pde version="3.8"?>
 
-<target name="Riena Based on Eclipse RAP" sequenceNumber="62">
+<target name="Riena Based on Eclipse RAP" sequenceNumber="63">
 <locations>
 <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
-<unit id="org.eclipse.emf.rap.source.feature.group" version="2.10.1.v20140901-1055"/>
-<unit id="org.eclipse.rap.equinox.target.feature.feature.group" version="2.3.1.20140916-0712"/>
-<unit id="org.eclipse.emf.rap.feature.group" version="2.10.1.v20140901-1055"/>
-<unit id="org.eclipse.riena.build.feature.rap.sdk.feature.group" version="6.0.0.v20140610_6_0_0_0"/>
-<unit id="org.eclipse.rap.feature.feature.group" version="2.3.1.20140909-1638"/>
-<repository location="http://download.eclipse.org/releases/luna"/>
+<unit id="org.eclipse.rap.equinox.target.feature.feature.group" version="3.0.0.20150608-0802"/>
+<unit id="org.eclipse.riena.build.feature.rap.sdk.feature.group" version="6.1.0.v20150520_6_1_0_RC1"/>
+<unit id="org.eclipse.emf.rap.feature.group" version="2.11.0.v20150601-0402"/>
+<unit id="org.eclipse.rap.feature.feature.group" version="3.0.0.20150602-0950"/>
+<repository location="http://download.eclipse.org/releases/mars"/>
 </location>
 </locations>
 </target>
